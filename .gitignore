@@ -1,0 +1,26 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+client/paint-stock/node_modules
+client/paint-stock/.pnp
+client/paint-stock/.pnp.js
+
+# testing
+client/paint-stock/coverage
+
+# production
+client/paint-stock/build
+
+# misc
+client/paint-stock/.DS_Store
+client/paint-stock/.env.local
+client/paint-stock/.env.development.local
+client/paint-stock/.env.test.local
+client/paint-stock/.env.production.local
+
+client/paint-stock/npm-debug.log*
+client/paint-stock/yarn-debug.log*
+client/paint-stock/yarn-error.log*
+
+.env

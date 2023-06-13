@@ -1,0 +1,10 @@
+html, body {
+  margin: 0px;
+  height: 100%;
+}
+
+.content-col{
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto 0 auto;
+}
